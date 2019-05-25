@@ -8,6 +8,7 @@ public class Agencia{
 		this.numeroAgencia = numeroAgencia;
 		this.nome = nome;
 		this.localizacao = endereco;
+		contas = new ArrayList<Conta>();
 	}
 
 	public String getNumeroAgencia(){
