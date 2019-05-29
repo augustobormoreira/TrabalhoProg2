@@ -35,4 +35,11 @@ public class Agencia{
 		this.localizacao = endereco;
 	}
 
+	public ArrayList<Conta> getContas(){
+		return contas;
+	}
+
+	public void addContas(Conta conta){
+		contas.add(conta);
+	}
 }

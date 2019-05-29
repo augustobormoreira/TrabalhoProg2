@@ -57,7 +57,7 @@ public class CCorrente implements Conta{
 	}
 
 	public void setMontante(double montante){
-		this.montante = montante;
+		this.montante = this.montante + montante;
 	}
 
 	public Data getDataCriacao(){
